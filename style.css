@@ -1,0 +1,48 @@
+
+.first{
+    width:960px;
+    height:700px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    position:relative;
+}
+
+
+#but{ 
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+    width: fit-content;
+    padding:10px;
+    font-size: 25px;
+    border-radius:10px;
+    display:block;
+    background-color:navy;
+    color:white;
+}
+
+.kucica{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:absolute;
+    border-radius: 10px;
+    border:1px solid black;
+}
+
+.kucica:hover{
+    background-color: black !important;
+    transition-duration:0.5s;
+    border-radius: 0px;
+}
+
